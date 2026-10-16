@@ -1,7 +1,6 @@
 # Scene data
 
 [Download paper-scenes-v1.tar.gz (87.5 MB)](https://github.com/zju-muslab/ReaLiDAR/releases/download/v1.0.0/paper-scenes-v1.tar.gz).
-The download becomes available after the scene data package is uploaded to the `v1.0.0` release.
 
 From the repository root:
 

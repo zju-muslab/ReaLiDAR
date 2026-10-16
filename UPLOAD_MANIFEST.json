@@ -40,13 +40,13 @@
     },
     {
       "path": "data/ARCHIVE.json",
-      "bytes": 310,
-      "sha256": "553739febfb83e6ddf32ac07d6ef9fa2a115866da58ce6900c42e05b1968ee76"
+      "bytes": 289,
+      "sha256": "303e6cd947c4961a111f21f5e0aec1222e36f12418e891be8973d9020f115e74"
     },
     {
       "path": "data/README.md",
-      "bytes": 690,
-      "sha256": "eb7bdcc1847249f07079717a3cef5c1a0ca31ced61bc5983b140ac461c97588b"
+      "bytes": 593,
+      "sha256": "863546aa1ab9927a40c9fe0f3edde80fb3327a4ee853643582a1000b824618df"
     },
     {
       "path": "data/manifest.json",
@@ -259,7 +259,7 @@
       "sha256": "71f601a77ce365ebd2dd32fd96794072b67da57486aa8af8bbd8b2fdbaceb88c"
     }
   ],
-  "source_bytes": 3848669,
+  "source_bytes": 3848551,
   "excluded": [
     "outputs/",
     "__pycache__/",
@@ -273,12 +273,11 @@
     "bytes": 87500989,
     "sha256": "609a77103352e11186077067215acc5c4a314888bf04b078580df5d3da9385a5",
     "download_url": "https://github.com/zju-muslab/ReaLiDAR/releases/download/v1.0.0/paper-scenes-v1.tar.gz",
-    "publication_status": "prepared locally; not uploaded"
+    "publication_status": "published"
   },
   "code_license": "CC-BY-NC-SA-4.0 (original source code only; third-party licenses retained)",
   "pending_publication_metadata": [
     "copyright-holder attribution and patent authorization scope",
-    "scene/GT distribution terms",
-    "upload scene archive to the planned v1.0.0 Release URL"
+    "scene/GT distribution terms"
   ]
 }
