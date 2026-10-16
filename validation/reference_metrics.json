@@ -1,0 +1,161 @@
+{
+  "garage_rs_m1": {
+    "metrics": {
+      "chamfer_distance": 0.21328334069879756,
+      "intensity_rmse": 28.730566707437756,
+      "distance_rmse": 1.2209152214111456,
+      "points": 45060,
+      "gt_points": 48064,
+      "filtered_sim_points": 45060,
+      "joint_pixels": 30769,
+      "gt_valid_pixels": 36808,
+      "sim_valid_pixels": 43867
+    },
+    "settings": {
+      "case": "garage_rs_m1",
+      "sensor": "rs_m1plus",
+      "profile": "rs_m1_paper",
+      "scene": "scenes/garage_rs_m1/scene.xml",
+      "gt": "ground_truth/garage_rs_m1.csv",
+      "spp": 1024,
+      "max_depth": 5,
+      "seed": 0,
+      "retro_bsdf": "retro_reflective_legacy",
+      "beam_response": "binary",
+      "beam_divergence": 0.0,
+      "gaussian_compensation": false,
+      "aov_layout": "radiance_distance_shape",
+      "method": "binning",
+      "echo_mode": "strongest",
+      "emitter_intensity": 1000.0
+    },
+    "shape_aovs": {
+      "layout": "radiance_distance_shape",
+      "stride": 3,
+      "mesh_count": 115,
+      "max_id_by_bounce": [
+        114.0,
+        114.0,
+        115.0,
+        115.0,
+        115.0
+      ]
+    },
+    "environment": {
+      "python": "3.10.19",
+      "mitsuba": "3.7.1",
+      "drjit": "1.2.0",
+      "numpy": "2.2.6",
+      "scipy": "1.15.2",
+      "pandas": "2.3.3",
+      "variant": "cuda_ad_rgb"
+    },
+    "validation_scope": "standalone portable source export, existing tested environment"
+  },
+  "mirror_rs_m1": {
+    "metrics": {
+      "chamfer_distance": 0.19935937057523306,
+      "intensity_rmse": 29.851111187020127,
+      "distance_rmse": 1.3529653118285345,
+      "points": 46567,
+      "gt_points": 48025,
+      "filtered_sim_points": 46567,
+      "joint_pixels": 31581,
+      "gt_valid_pixels": 36441,
+      "sim_valid_pixels": 45360
+    },
+    "settings": {
+      "case": "mirror_rs_m1",
+      "sensor": "rs_m1plus",
+      "profile": "rs_m1_paper",
+      "scene": "scenes/mirror_rs_m1/scene.xml",
+      "gt": "ground_truth/mirror_rs_m1.csv",
+      "spp": 1024,
+      "max_depth": 5,
+      "seed": 0,
+      "retro_bsdf": "retro_reflective_legacy",
+      "beam_response": "binary",
+      "beam_divergence": 0.0,
+      "gaussian_compensation": false,
+      "aov_layout": "radiance_distance_shape",
+      "method": "binning",
+      "echo_mode": "strongest",
+      "emitter_intensity": 1000.0
+    },
+    "shape_aovs": {
+      "layout": "radiance_distance_shape",
+      "stride": 3,
+      "mesh_count": 121,
+      "max_id_by_bounce": [
+        120.0,
+        121.0,
+        121.0,
+        121.0,
+        121.0
+      ]
+    },
+    "environment": {
+      "python": "3.10.19",
+      "mitsuba": "3.7.1",
+      "drjit": "1.2.0",
+      "numpy": "2.2.6",
+      "scipy": "1.15.2",
+      "pandas": "2.3.3",
+      "variant": "cuda_ad_rgb"
+    },
+    "validation_scope": "standalone portable source export, existing tested environment"
+  },
+  "garage_vlp16": {
+    "metrics": {
+      "chamfer_distance": 0.34921211551863374,
+      "intensity_rmse": 22.781296912377655,
+      "distance_rmse": 1.3653172797346818,
+      "points": 13069,
+      "gt_points": 6710,
+      "filtered_sim_points": 7298,
+      "joint_pixels": 6429,
+      "gt_valid_pixels": 6700,
+      "sim_valid_pixels": 7298
+    },
+    "settings": {
+      "case": "garage_vlp16",
+      "sensor": "vlp16",
+      "profile": "vlp16_paper",
+      "scene": "scenes/garage_vlp16/scene.xml",
+      "gt": "ground_truth/garage_vlp16.pcd",
+      "spp": 1024,
+      "max_depth": 5,
+      "seed": 0,
+      "retro_bsdf": "retro_reflective_angular",
+      "beam_response": "gaussian",
+      "beam_divergence": 0.0015,
+      "gaussian_compensation": true,
+      "aov_layout": "radiance_distance_shape",
+      "method": "binning",
+      "echo_mode": "strongest",
+      "emitter_intensity": 1000.0
+    },
+    "shape_aovs": {
+      "layout": "radiance_distance_shape",
+      "stride": 3,
+      "mesh_count": 69,
+      "max_id_by_bounce": [
+        69.0,
+        69.0,
+        69.0,
+        69.0,
+        69.0
+      ]
+    },
+    "environment": {
+      "python": "3.10.19",
+      "mitsuba": "3.7.1",
+      "drjit": "1.2.0",
+      "numpy": "2.2.6",
+      "scipy": "1.15.2",
+      "pandas": "2.3.3",
+      "variant": "cuda_ad_rgb"
+    },
+    "validation_scope": "standalone portable source export, existing tested environment"
+  }
+}

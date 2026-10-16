@@ -1,0 +1,18 @@
+{
+  "case": "mirror_rs_m1",
+  "sensor": "rs_m1plus",
+  "profile": "rs_m1_paper",
+  "scene": "scenes/mirror_rs_m1/scene.xml",
+  "gt": "ground_truth/mirror_rs_m1.csv",
+  "spp": 1024,
+  "max_depth": 5,
+  "seed": 0,
+  "retro_bsdf": "retro_reflective_legacy",
+  "beam_response": "binary",
+  "beam_divergence": 0.0,
+  "gaussian_compensation": false,
+  "aov_layout": "radiance_distance_shape",
+  "method": "binning",
+  "echo_mode": "strongest",
+  "emitter_intensity": 1000.0
+}

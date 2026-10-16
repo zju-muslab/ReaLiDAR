@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "scope": "source repository only",
+  "manifest_file": "UPLOAD_MANIFEST.json (also upload; not self-hashed)",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 113,
+      "sha256": "4928406458a6409ca4ac5734238568dbc6d29cdc9513cb2397f79261e8f32e54"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 20850,
+      "sha256": "e66c269d4819aaab34b49ef5220c4ddab6756f21bb5180761a4eb8561f2b7bbd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4201,
+      "sha256": "2e6a7549af02a98e3b02e10c043b0213cab469a5958275b723f9e560b7d3f22f"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1109,
+      "sha256": "60adcc085552cf7c23f185190081c2e234052057e6a6c7e0c9e5918748bb7154"
+    },
+    {
+      "path": "configs/garage_rs_m1.json",
+      "bytes": 470,
+      "sha256": "492462267c9157e7d452ffa8c9fdb5c822a4609f4c84b7193e7fe075848a346c"
+    },
+    {
+      "path": "configs/garage_vlp16.json",
+      "bytes": 471,
+      "sha256": "6531bf096951530eaf3c78e1a6f9cc864669f0cb2b03cd4ac33d0e367b73a29e"
+    },
+    {
+      "path": "configs/mirror_rs_m1.json",
+      "bytes": 470,
+      "sha256": "da33762e6d9a475612aa2ccb265c1cb1117c78075c5d80bf514610fc3640250b"
+    },
+    {
+      "path": "data/ARCHIVE.json",
+      "bytes": 310,
+      "sha256": "553739febfb83e6ddf32ac07d6ef9fa2a115866da58ce6900c42e05b1968ee76"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 690,
+      "sha256": "eb7bdcc1847249f07079717a3cef5c1a0ca31ced61bc5983b140ac461c97588b"
+    },
+    {
+      "path": "data/manifest.json",
+      "bytes": 734651,
+      "sha256": "98e5ff84476a3deb04ac20a0da5231254ee5a4348af99bdd8b9d70c403b1b55d"
+    },
+    {
+      "path": "docs/MATERIALS.md",
+      "bytes": 5299,
+      "sha256": "99307984a83a477f12f8c2214c610c5f88fb6b9997aaff123bbd46c415be1cee"
+    },
+    {
+      "path": "docs/SCENE_GUIDE.md",
+      "bytes": 4161,
+      "sha256": "b58b48f96b71cab57412e9edc41a6f9d7dc3db7e664780428185a9931fd5c082"
+    },
+    {
+      "path": "licenses/Mitsuba-LICENSE.txt",
+      "bytes": 2190,
+      "sha256": "8f9d91002eabbe1667a2394b51e28b38162ff5889aca3245179d0e8aa153fa2c"
+    },
+    {
+      "path": "python/ad/__init__.py",
+      "bytes": 1115,
+      "sha256": "30909d1bd9d08b4b6759ca47b3dc7f89bb98ebc4f4225b4ac0230de9f57853e9"
+    },
+    {
+      "path": "python/ad/beam_config.py",
+      "bytes": 5501,
+      "sha256": "d3991c9b9dd5f8605ed9d4e687ff5d002761eb5134a561d5988a63d5ace38663"
+    },
+    {
+      "path": "python/ad/integrators/__init__.py",
+      "bytes": 73,
+      "sha256": "8945b65306834dded2aa8e212030c0a0578d06bfdc2130b49b57633b88c7c8bd"
+    },
+    {
+      "path": "python/ad/integrators/common.py",
+      "bytes": 55840,
+      "sha256": "baace92867e056d4d117f76385e01622c848abcd903202d3892e7cbcd57a91ac"
+    },
+    {
+      "path": "python/ad/integrators/lidar_waveform.py",
+      "bytes": 37835,
+      "sha256": "a517de80fdd5d9902a7d1f43f55d8964206c3c7dd978f184fb702f586790f3a5"
+    },
+    {
+      "path": "python/ad/io.py",
+      "bytes": 1650,
+      "sha256": "b338e84edb265a8432471c6e17828a72efae671d2fd36fb7aebde581dc3f1440"
+    },
+    {
+      "path": "python/ad/lidar_configs/__init__.py",
+      "bytes": 5258,
+      "sha256": "10106772fb9201f5b1ec642c23e959370a9d16da7c973fac4039a9ba1cec7aab"
+    },
+    {
+      "path": "python/ad/lidar_configs/rs_m1plus.py",
+      "bytes": 2218,
+      "sha256": "c5518a744bd58092e09e193ee7a018e27912e90f95608892863592746977a1bf"
+    },
+    {
+      "path": "python/ad/lidar_configs/rs_m1plus_all_rings_angles.txt",
+      "bytes": 1732840,
+      "sha256": "72e43a7b5a387063cb2135d295ae9aa7057e3d2eea174c506c6fe90926fcc6d5"
+    },
+    {
+      "path": "python/ad/lidar_configs/vlp16.py",
+      "bytes": 1565,
+      "sha256": "93eb6909801c9702114419a6215b88d4093664ceee5c6c86cd630ae1eccb250c"
+    },
+    {
+      "path": "python/ad/mesh_utils.py",
+      "bytes": 1180,
+      "sha256": "c722da3271ea1afb52f7de19be060dc70df9dc9a30997583211da1ca9c1b1e9b"
+    },
+    {
+      "path": "python/ad/models/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "python/ad/models/rs_m1_paper/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "python/ad/models/rs_m1_paper/lidar_spot.py",
+      "bytes": 7409,
+      "sha256": "5f1c9c63dd8b82342cfa4b93de4cd8ed4124cd4b719ea58ba1a1ff4c141bed65"
+    },
+    {
+      "path": "python/ad/models/rs_m1_paper/retro_reflective.py",
+      "bytes": 7695,
+      "sha256": "3417e0390d075725cdb96de64442998498a3f08688c921d1f50b42778b587c50"
+    },
+    {
+      "path": "python/ad/models/vlp16_paper/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "python/ad/models/vlp16_paper/lidar_spot.py",
+      "bytes": 7692,
+      "sha256": "3cda50f39484be6a36c4b96e6e0dc4cdbf887af4bb01712cef33f3848884f575"
+    },
+    {
+      "path": "python/ad/models/vlp16_paper/retro_reflective.py",
+      "bytes": 11279,
+      "sha256": "b260d8565e8e918946e5612e6d42b9e34b61eec914191a5818a1e87524fa7cf3"
+    },
+    {
+      "path": "python/ad/point_cloud.py",
+      "bytes": 3112,
+      "sha256": "2c7e88be2df8fc3ffa04d56abc7b7e737dd9bafd74ce05674d6307fe624cacd2"
+    },
+    {
+      "path": "python/ad/sensors/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "python/ad/sensors/lidar_sensor.py",
+      "bytes": 4529,
+      "sha256": "c3d7384bc0500f0ab86c0b78ba174489d5eaba2f19a9e6e1ab8eca0169c4438b"
+    },
+    {
+      "path": "python/ad/waveform_processing.py",
+      "bytes": 61402,
+      "sha256": "3d757d2a2f8bb99859ffa2ef9f0af5a1562fa9dd1e744fc67c3dc0007498f88b"
+    },
+    {
+      "path": "python/evaluation/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "python/evaluation/metrics.py",
+      "bytes": 1058,
+      "sha256": "6af9448bcd422f851deb0d6d85650f988828cda209d9aaf55623f2a5777f8f0d"
+    },
+    {
+      "path": "python/evaluation/rs_m1.py",
+      "bytes": 2485,
+      "sha256": "8a547a28da373450e5a63c15de8511de017d2d3f0c82ca4dc350e141c61d0a5f"
+    },
+    {
+      "path": "python/evaluation/vlp16.py",
+      "bytes": 3367,
+      "sha256": "0d638a0d84adfb116937918fdf0b12f46db63250d591c3f79dde39615e451f30"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 96,
+      "sha256": "7febcd30e63280e4a55d270cee3078e94b3e2c4ef93c91c1c7b58f43f53a7079"
+    },
+    {
+      "path": "scenes/garage_rs_m1/scene.xml",
+      "bytes": 342610,
+      "sha256": "5a4d926639b63e0c18262712051de81e555bb770a357450b85d96966c62301b3"
+    },
+    {
+      "path": "scenes/garage_vlp16/scene.xml",
+      "bytes": 345544,
+      "sha256": "cccf4e2d164ed3cd8348c8a602d7ef1219911bc5a0e0727d8815b4cd10bb8dce"
+    },
+    {
+      "path": "scenes/mirror_rs_m1/scene.xml",
+      "bytes": 383315,
+      "sha256": "ea37d951acf53c9d9247d761b5b9e4809f211eacb94a94aca3ca00b2549db847"
+    },
+    {
+      "path": "scripts/compare_point_clouds.py",
+      "bytes": 8429,
+      "sha256": "2f866714d4047013f0442897660bee8c91d8c008f297816b70ac1c53d4ab8c7e"
+    },
+    {
+      "path": "scripts/render_scene.py",
+      "bytes": 8215,
+      "sha256": "afff3ca4e07b6627809cf1fb5c023687b8e857d5dc9e58c458ee44f250fdee24"
+    },
+    {
+      "path": "scripts/reproduce.py",
+      "bytes": 9231,
+      "sha256": "bb8a0a3169b0aba0985f10d59e71ccb079e8ae19856f2ca0aea5cf4886b0286d"
+    },
+    {
+      "path": "scripts/verify_data.py",
+      "bytes": 975,
+      "sha256": "bd4707e824bbc97573bfbfca25ea01be6327b28c09cee52a0e7d15be49c65e44"
+    },
+    {
+      "path": "tests/test_processing_features.py",
+      "bytes": 4718,
+      "sha256": "6fb29c95190e22b4ff6e51611ba3905946cf5d4aa937ee9362f863fcb3e767ca"
+    },
+    {
+      "path": "validation/environment_setup.json",
+      "bytes": 4600,
+      "sha256": "3a0f1d7d97cc409cc23c456403276cbe95039f2e996c5966bb9e572bf5b44af3"
+    },
+    {
+      "path": "validation/reference_metrics.json",
+      "bytes": 4310,
+      "sha256": "e8db0875dcb950cb4c3d8b7c8da790fe72c7bba6bd741b93d86a831d451b715a"
+    },
+    {
+      "path": "validation/release_validation.json",
+      "bytes": 6538,
+      "sha256": "71f601a77ce365ebd2dd32fd96794072b67da57486aa8af8bbd8b2fdbaceb88c"
+    }
+  ],
+  "source_bytes": 3848669,
+  "excluded": [
+    "outputs/",
+    "__pycache__/",
+    "data/assets/",
+    "data/ground_truth/",
+    "original research checkout and Git metadata",
+    "recovery snapshots/audits/scripts"
+  ],
+  "separate_release_asset": {
+    "filename": "paper-scenes-v1.tar.gz",
+    "bytes": 87500989,
+    "sha256": "609a77103352e11186077067215acc5c4a314888bf04b078580df5d3da9385a5",
+    "download_url": "https://github.com/zju-muslab/ReaLiDAR/releases/download/v1.0.0/paper-scenes-v1.tar.gz",
+    "publication_status": "prepared locally; not uploaded"
+  },
+  "code_license": "CC-BY-NC-SA-4.0 (original source code only; third-party licenses retained)",
+  "pending_publication_metadata": [
+    "copyright-holder attribution and patent authorization scope",
+    "scene/GT distribution terms",
+    "upload scene archive to the planned v1.0.0 Release URL"
+  ]
+}

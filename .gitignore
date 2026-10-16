@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+/outputs/
+/data/assets/
+/data/ground_truth/
+*.tar.gz
+.DS_Store
